@@ -1,0 +1,21 @@
+// user register
+curl --location 'http://localhost:3000/api/auth/register' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+  "name": "Mayur Dodiya",
+  "email": "mayurdodiya1234@gmail.com",
+  "password": "Test@123",
+  "phone": "9876543210"
+}'
+
+// login
+curl --location 'http://localhost:3000/api/auth/login' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "email": "mayurdodiya1234@gmail.com",
+    "password": "Test@123"
+}'
+
+// get all
+curl --location 'http://localhost:3000/api/auth?page=0&size=2&search=' \
+--header 'Content-Type: application/json'
