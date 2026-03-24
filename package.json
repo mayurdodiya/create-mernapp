@@ -1,6 +1,6 @@
 {
-  "name": "@mayur-dodiya/create-mernapp",
-  "version": "1.0.5",
+  "name": "create-mern-boiler",
+  "version": "1.0.7",
   "bin": {
     "create-mernapp": "bin/index.js"
   },
