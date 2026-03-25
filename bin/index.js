@@ -4,13 +4,13 @@ const { execSync } = require("child_process");
 const path = require("path");
 const fs = require("fs");
 
-const BOILERPLATE_REPO = "mayurdodiya/create-mernapp";
+const BOILERPLATE_REPO = "mayurdodiya/boilerplate-express-mongodb";
 
 const projectName = process.argv[2];
 
 if (!projectName) {
   console.log("❌ Please provide a project name!");
-  console.log("   Usage: npx @mayur-dodiya/create-mernapp my-project");
+  console.log("   Usage: npx @mayur-dodiya/boilerplate-express-mongodb my-project");
   process.exit(1);
 }
 

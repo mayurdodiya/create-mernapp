@@ -1,11 +1,19 @@
 {
-  "name": "create-mern-boiler",
-  "version": "1.0.9",
+  "name": "create-express-mongodb-boiler",
+  "version": "1.0.3",
   "bin": {
     "create-mernapp": "bin/index.js"
   },
-  "description": "Node-task",
   "main": "index.js",
+  "description": "CLI tool to scaffold a MERN stack boilerplate",
+  "keywords": [
+    "mern",
+    "boilerplate",
+    "cli",
+    "express",
+    "mongodb",
+    "scaffold"
+  ],
   "scripts": {
     "start": "node src/index.js",
     "dev": "nodemon src/index.js",
